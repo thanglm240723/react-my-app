@@ -16,6 +16,8 @@ import MyComponent from './assets/MyComponent'
 
 import List from './assets/List'
 import List2 from './assets/list2'
+import ColorPicker from './assets/ColorPicker'
+import MyCar from './assets/MyCar'
 function App() {
 
 
@@ -50,9 +52,12 @@ function App() {
     <List2 iteam={fruits} category="fruits" />
     <List2 iteam={vegetables} category="vegetables" />
     <Button2></Button2>
-    */}
-
     <MyComponent/>
+    <ColorPicker/>
+    */}
+      <MyCar></MyCar>
+
+
 
 
     </>
